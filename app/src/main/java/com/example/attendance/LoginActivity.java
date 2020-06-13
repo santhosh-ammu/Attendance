@@ -30,7 +30,7 @@ import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private static String retrive_Url = "http://192.168.43.11/attend/login_det.php";
+    private static String retrive_Url = "http://192.168.43.231/attend/login_det.php";
     private EditText editUser, editPass;
     private AlertDialog.Builder builder;
     private String username, password;

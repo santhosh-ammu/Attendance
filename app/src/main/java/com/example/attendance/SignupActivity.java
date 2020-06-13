@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class SignupActivity extends AppCompatActivity {
 
-    private static String insert_Url = "http://192.168.43.11/attend/retrive.php";
+    private static String insert_Url = "http://192.168.43.231/attend/retrive.php";
     private EditText editUser, editPass, editCon;
     private AlertDialog.Builder builder;
 

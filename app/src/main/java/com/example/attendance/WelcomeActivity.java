@@ -25,7 +25,7 @@ import java.util.Map;
 public class WelcomeActivity extends AppCompatActivity {
     private TextView textStaff, textMobile, textEmail, textQuali,textDate;
     private String username;
-    private String info_Url = "http://192.168.43.11/attend/staffInfo.php";
+    private String info_Url = "http://192.168.43.231/attend/staffInfo.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

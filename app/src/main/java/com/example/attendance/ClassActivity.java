@@ -32,7 +32,7 @@ public class ClassActivity extends AppCompatActivity {
     private ListviewAdapter listviewAdapter;
     private List<String> clName = new ArrayList<>();
     private String className;
-    private String class_Url = "http://192.168.43.11/attend/classInfo.php";
+    private String class_Url = "http://192.168.43.231/attend/classInfo.php";
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -72,7 +72,8 @@ public class ClassActivity extends AppCompatActivity {
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                                 String value = listviewAdapter.getItem(position);
                                 Intent intent = new Intent(ClassActivity.this, NameActivity.class);
-                                intent.putExtra("value", value);
+                                String[] val={value,hour};
+                                intent.putExtra("value", val);
                                 startActivity(intent);
                             }
                         });
